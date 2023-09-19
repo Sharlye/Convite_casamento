@@ -1,0 +1,33 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+  }
+
+  img {
+    max-width: 800px;
+    max-height: 800px;
+    width: 320px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .link{
+    height: auto;
+    width: 16%;
+    margin: auto;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    color: rgb(28, 255, 7);
+    text-decoration: none;
+  }
+  
