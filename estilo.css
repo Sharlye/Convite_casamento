@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+}
+
+header {
+    margin-left: 16px;
+    display: block;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.nome {
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.frase {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.data {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+  }
+
+.bot {
+    height: 20px;
+    margin: 8px;
+    padding: 16px;
+}
+
+a {
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 4px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+  }
+
+  footer {
+    margin: 8px;
+    text-align: center;
+  }
